@@ -2,7 +2,12 @@ Package: CSpackage
 Title: S3 Class Demonstration with Print, Summary, and Plot Methods
 Version: 0.0.0.9000
 Authors@R: 
-    person("Jonas", "Jensen", email = "jjensj21@student.aau.dk", role = c("aut", "cre"))
+    c(
+        person("Jonas", "Jensen", email = "jjensj21@student.aau.dk", role = c("aut", "cre")),
+        person("Rasmus", "Thorstensen", email = "rthors20@student.aau.dk", role = "aut"),
+        person("Biak", "Zathang", email = "bzath21@student.aau.dk", role = "aut"),
+        person("Jacob", "Qazizada", email = "jqaziz18@student.aau.dk", role = "aut")
+    )
 Description: This package shows how to build a S3 object in R. 
     It includes a constructor function along with S3 methods for printing, summarizing, 
     and plotting a numeric data object.
