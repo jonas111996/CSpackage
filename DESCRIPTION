@@ -9,7 +9,7 @@ Authors@R:
         person("Jacob", "Qazizada", email = "jqaziz18@student.aau.dk", role = "aut")
     )
 Description: This package shows how to build a S3 object in R. 
-    It includes a constructor function along with S3 methods for printing, summarizing, 
+    It includes a constructor function along with S3 methods for printing, summarizing, converting to dataframes
     and plotting a numeric data object.
 License: MIT + file LICENSE
 Encoding: UTF-8
