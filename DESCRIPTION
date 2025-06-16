@@ -1,0 +1,19 @@
+Package: CSpackage
+Title: S3 Class Demonstration with Print, Summary, and Plot Methods
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jonas", "Jensen", email = "jjensj21@student.aau.dk", role = c("aut", "cre"))
+Description: This package shows how to build a S3 object in R. 
+    It includes a constructor function along with S3 methods for printing, summarizing, 
+    and plotting a numeric data object.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Suggests:
+    tinytest,
+    devtools,
+    knitr,
+    rmarkdown
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+VignetteBuilder: knitr
+

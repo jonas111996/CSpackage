@@ -1,0 +1,48 @@
+---
+title: "CSpackage Introduction"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{CSpackage Introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r load_package}
+library(CSpackage)
+```
+We begin by creating a new my_object. Here it contains the numbers from 1 to 100
+```{r}
+obj <- new_my_object(1:100)
+```
+Using print on the object to displays the numeric data
+```{r}
+print(obj)
+```
+
+We use the summary function to view summary statistics of the data
+```{r}
+summary(obj)
+```
+
+
+The object can be converted to a regular data frame using the as.data.frame command 
+```{r}
+df <- as.data.frame(obj)
+print(df)
+```
+
+The plot() method draws a simple line plot of the numeric data contained in the object. This provides a quick visual overview of the values:
+```{r}
+plot(obj)
+```
+
+
+
+
