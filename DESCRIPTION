@@ -16,4 +16,5 @@ Suggests:
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 VignetteBuilder: knitr
-
+URL: https://github.com/jonas111996/CSpackage
+BugReports: https://github.com/jonas111996/CSpackage/issues
